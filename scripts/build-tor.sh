@@ -16,7 +16,7 @@ pushd "tor-${TOR_VERSION}"
 	CFLAGS="-arch ${ARCH} -fPIE -isysroot ${SDK_PATH} -I${ARCH_BUILT_HEADERS_DIR} ${PLATFORM_VERSION_MIN} -fembed-bitcode"
 	CPPFLAGS="-arch ${ARCH} -fPIE -isysroot ${SDK_PATH} -I${ARCH_BUILT_HEADERS_DIR} ${PLATFORM_VERSION_MIN} -fembed-bitcode"
 
-	if [ "${ARCH}" == "i386" ] || [ "${ARCH}" == "x86_64" ]; then
+	if [ "${ARCH}" == "x86_64" ]; then
 		EXTRA_CONFIG="--host=${ARCH}-apple-darwin"
     else
         EXTRA_CONFIG="--host=arm-apple-darwin"
@@ -26,6 +26,7 @@ pushd "tor-${TOR_VERSION}"
 	--prefix="${ROOTDIR}" \
 	--with-openssl-dir="${ARCH_BUILT_DIR}" \
 	--with-libevent-dir="${ARCH_BUILT_DIR}" \
+	--with-zlib-dir="${SDK_PATH}/usr" \
 	--enable-restart-debugging --enable-silent-rules --enable-pic --disable-module-dirauth \
 	--disable-tool-name-check --disable-unittests --enable-static-openssl --enable-static-libevent \
 	--disable-asciidoc --disable-system-torrc --disable-linker-hardening --disable-dependency-tracking \

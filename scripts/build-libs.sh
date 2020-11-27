@@ -9,30 +9,41 @@
 
 set -e
 
+function find_sdk {
+  local PLATFORM=$1
+  local retvar=$2
+
+  local SDK_PREFIX="iphoneos"
+  if [ "$PLATFORM" == "iOS" ]; then
+    SDK_PREFIX="iphoneos"
+  else
+    SDK_PREFIX=" macosx"
+  fi
+  local AVAIL_SDKS=`xcodebuild -showsdks | grep "$SDK_PREFIX"`
+  local LAST_SDK=`echo "$AVAIL_SDKS" | tail -1`
+  local FOUND_SDK=`echo "$LAST_SDK" | cut -d\  -f2`
+  eval "$retvar=$FOUND_SDK"
+}
+
+SDK=$1
+
+find_sdk "iOS" "SDK_IOS"
+echo "Found iOS SDK: $SDK_IOS"
+find_sdk "macOS" "SDK_MACOS"
+echo "Found macOS SDK: $SDK_MACOS"
+
 if [  "${PLATFORM_TARGET}" == "" ]; then
   echo "No platform target set, using iOS."
   export PLATFORM_TARGET="iOS"
 fi
 echo "Using platform target: $PLATFORM_TARGET."
 
-SDK=$1
 if [ "${SDK}" == "" ]
 then
-  SDK_PREFIX="iphoneos"
   if [ "$PLATFORM_TARGET" == "iOS" ]; then
-    SDK_PREFIX="iphoneos"
+    SDK="$SDK_IOS"
   else
-    SDK_PREFIX="macosx10.15"
-  fi
-  AVAIL_SDKS=`xcodebuild -showsdks | grep "$SDK_PREFIX"`
-  FIRST_SDK=`echo "$AVAIL_SDKS" | head -n1`
-  if [ "$AVAIL_SDKS" == "$FIRST_SDK" ]; then
-    SDK=`echo "$FIRST_SDK" | cut -d\  -f2`
-    echo "No SDK specified. Using the only one available: $PLATFORM_TARGET $SDK"
-  else
-    echo "Please specify an $PLATFORM_TARGET SDK version number from the following possibilities:"
-    echo "$AVAIL_SDKS"
-    exit 1
+    SDK="$SDK_MACOS"
   fi
 fi
 
@@ -58,10 +69,10 @@ fi
 # Versions
 export MIN_IOS_VERSION="8.0"
 export MIN_OSX_VERSION="10.10"
-export OPENSSL_VERSION="1.1.1c"
-export LZMA_VERSION="5.2.4"
-export LIBEVENT_VERSION="2.1.10-stable"
-export TOR_VERSION="0.4.0.5"
+export OPENSSL_VERSION="1.1.1i"
+export LZMA_VERSION="5.2.5"
+export LIBEVENT_VERSION="2.1.12-stable"
+export TOR_VERSION="0.4.4.6"
 
 BUILT_ARCHS=()
 DEVELOPER=`xcode-select --print-path`
@@ -107,7 +118,7 @@ do
       if [ "${ARCH}" == "x86_64-maccatalyst" ]; then
         MIN_IOS_VERSION="13.0"
         PLATFORM="MacOSX"
-        SDK="10.15"
+        SDK="$SDK_MACOS"
         PLATFORM_SDK="macosx${SDK}"
         export PLATFORM_VERSION_MIN="-target x86_64-apple-ios-macabi -miphoneos-version-min=${MIN_IOS_VERSION}"
       else
@@ -119,7 +130,7 @@ do
       PLATFORM_SDK="macosx${SDK}"
       export PLATFORM_VERSION_MIN="-mmacosx-version-min=${MIN_OSX_VERSION}"
     fi
-    
+
     ROOTDIR="${BUILD_DIR}/${PLATFORM}-${SDK}-${ARCH}"
     rm -rf "${ROOTDIR}"
     mkdir -p "${ROOTDIR}"
@@ -177,7 +188,7 @@ do
     else
       ../build-${LIBRARY}.sh
     fi
-    
+
     # Remove junk
     rm -rf "${ROOTDIR}"
 

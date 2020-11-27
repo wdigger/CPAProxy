@@ -19,7 +19,7 @@ pushd "${ARCHIVE_NAME}"
    CFLAGS=" -arch ${ARCH} -fPIE -isysroot ${SDK_PATH} -I${ARCH_BUILT_HEADERS_DIR} ${PLATFORM_VERSION_MIN} -fembed-bitcode"
    CPPFLAGS=" -arch ${ARCH} -fPIE -isysroot ${SDK_PATH} -I${ARCH_BUILT_HEADERS_DIR} ${PLATFORM_VERSION_MIN} -fembed-bitcode"
 
-   if [ "${ARCH}" == "i386" ] || [ "${ARCH}" == "x86_64" ];
+   if [ "${ARCH}" == "x86_64" ];
    	then
       EXTRA_CONFIG="--host=${ARCH}-apple-darwin"
 	else
