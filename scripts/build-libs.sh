@@ -67,8 +67,8 @@ else
 fi
 
 # Versions
-export MIN_IOS_VERSION="8.0"
-export MIN_OSX_VERSION="10.10"
+export MIN_IOS_VERSION="13.0"
+export MIN_OSX_VERSION="10.15"
 export OPENSSL_VERSION="1.1.1i"
 export LZMA_VERSION="5.2.5"
 export LIBEVENT_VERSION="2.1.12-stable"

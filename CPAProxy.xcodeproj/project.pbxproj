@@ -7,26 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D91D7707235CF5FF007D2A54 /* CPAProxyResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B7C235CEEB0002B213A /* CPAProxyResponseParser.h */; };
-		D91D7708235CF5FF007D2A54 /* CPAConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B78235CEEB0002B213A /* CPAConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D7709235CF5FF007D2A54 /* CPAProxyManager+TorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6D235CEEAF002B213A /* CPAProxyManager+TorCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D770A235CF5FF007D2A54 /* CPAProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B65235CEE08002B213A /* CPAProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D770B235CF5FF007D2A54 /* CPASocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B73235CEEB0002B213A /* CPASocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D770C235CF5FF007D2A54 /* CPAProxyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B7E235CEEB0002B213A /* CPAProxyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D770D235CF5FF007D2A54 /* CPAProxyCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B76235CEEB0002B213A /* CPAProxyCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D770E235CF5FF007D2A54 /* CPAProxyTorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B71235CEEB0002B213A /* CPAProxyTorCommands.h */; };
-		D91D770F235CF5FF007D2A54 /* CPAProxyTorCommandConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6E235CEEAF002B213A /* CPAProxyTorCommandConstants.h */; };
+		7B2F3C0025CEAA400034E5CA /* TorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */; };
+		7B2F3C0125CEAA400034E5CA /* TorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */; };
+		7B2F3C0225CEAA400034E5CA /* TorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */; };
+		7B2F3C0325CEAA400034E5CA /* TorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */; };
+		7B608C9725C87FCD00BEA539 /* TorMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B608C8925C87FCD00BEA539 /* TorMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B608C9825C87FCD00BEA539 /* TorMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B608C8925C87FCD00BEA539 /* TorMain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B608C9925C87FCD00BEA539 /* TorProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */; };
+		7B608C9A25C87FCD00BEA539 /* TorProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */; };
+		7B608C9B25C87FCD00BEA539 /* TorProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */; };
+		7B608C9C25C87FCD00BEA539 /* TorProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */; };
+		7B608C9D25C87FCD00BEA539 /* TorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8B25C87FCD00BEA539 /* TorMain.m */; };
+		7B608C9E25C87FCD00BEA539 /* TorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8B25C87FCD00BEA539 /* TorMain.m */; };
+		7B608C9F25C87FCD00BEA539 /* TorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8B25C87FCD00BEA539 /* TorMain.m */; };
+		7B608CA025C87FCD00BEA539 /* TorMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8B25C87FCD00BEA539 /* TorMain.m */; };
+		7B608CA125C87FCD00BEA539 /* TorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */; };
+		7B608CA225C87FCD00BEA539 /* TorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */; };
+		7B608CA325C87FCD00BEA539 /* TorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */; };
+		7B608CA425C87FCD00BEA539 /* TorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */; };
+		7B608CA525C87FCD00BEA539 /* TorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8D25C87FCD00BEA539 /* TorCommand.swift */; };
+		7B608CA625C87FCD00BEA539 /* TorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8D25C87FCD00BEA539 /* TorCommand.swift */; };
+		7B608CA725C87FCD00BEA539 /* TorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8D25C87FCD00BEA539 /* TorCommand.swift */; };
+		7B608CA825C87FCD00BEA539 /* TorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8D25C87FCD00BEA539 /* TorCommand.swift */; };
+		7B608CA925C87FCD00BEA539 /* TorCommandConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */; };
+		7B608CAA25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */; };
+		7B608CAB25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */; };
+		7B608CAC25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */; };
+		7B608CB125C87FCD00BEA539 /* CPAProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B608C9025C87FCD00BEA539 /* CPAProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B608CB225C87FCD00BEA539 /* CPAProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B608C9025C87FCD00BEA539 /* CPAProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B608CB725C87FCD00BEA539 /* TorThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C9225C87FCD00BEA539 /* TorThread.swift */; };
+		7B608CB825C87FCD00BEA539 /* TorThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C9225C87FCD00BEA539 /* TorThread.swift */; };
+		7B608CB925C87FCD00BEA539 /* TorThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C9225C87FCD00BEA539 /* TorThread.swift */; };
+		7B608CBA25C87FCD00BEA539 /* TorThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B608C9225C87FCD00BEA539 /* TorThread.swift */; };
+		7BF071C025C95890003C1AED /* AsyncSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BD25C95890003C1AED /* AsyncSocket.swift */; };
+		7BF071C125C95890003C1AED /* AsyncSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BD25C95890003C1AED /* AsyncSocket.swift */; };
+		7BF071C225C95890003C1AED /* AsyncSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BD25C95890003C1AED /* AsyncSocket.swift */; };
+		7BF071C325C95890003C1AED /* AsyncSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BD25C95890003C1AED /* AsyncSocket.swift */; };
+		7BF071C425C95890003C1AED /* TorControlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BE25C95890003C1AED /* TorControlConnection.swift */; };
+		7BF071C525C95890003C1AED /* TorControlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BE25C95890003C1AED /* TorControlConnection.swift */; };
+		7BF071C625C95890003C1AED /* TorControlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BE25C95890003C1AED /* TorControlConnection.swift */; };
+		7BF071C725C95890003C1AED /* TorControlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BE25C95890003C1AED /* TorControlConnection.swift */; };
+		7BF071C825C95891003C1AED /* TextLineConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BF25C95890003C1AED /* TextLineConnection.swift */; };
+		7BF071C925C95891003C1AED /* TextLineConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BF25C95890003C1AED /* TextLineConnection.swift */; };
+		7BF071CA25C95891003C1AED /* TextLineConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BF25C95890003C1AED /* TextLineConnection.swift */; };
+		7BF071CB25C95891003C1AED /* TextLineConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF071BF25C95890003C1AED /* TextLineConnection.swift */; };
 		D91D7711235CF5FF007D2A54 /* tor_cpaproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B94235CEF6A002B213A /* tor_cpaproxy.h */; };
-		D91D7712235CF5FF007D2A54 /* CPAThread.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6C235CEEAF002B213A /* CPAThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D91D7714235CF5FF007D2A54 /* CPAProxyResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B6B235CEEAF002B213A /* CPAProxyResponseParser.m */; };
-		D91D7715235CF5FF007D2A54 /* CPAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7D235CEEB0002B213A /* CPAConfiguration.m */; };
-		D91D7716235CF5FF007D2A54 /* CPAProxyTorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7B235CEEB0002B213A /* CPAProxyTorCommands.m */; };
-		D91D7717235CF5FF007D2A54 /* CPAProxyCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B75235CEEB0002B213A /* CPAProxyCommand.m */; };
-		D91D7718235CF5FF007D2A54 /* CPAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7A235CEEB0002B213A /* CPAThread.m */; };
-		D91D7719235CF5FF007D2A54 /* CPASocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B72235CEEB0002B213A /* CPASocketManager.m */; };
-		D91D771B235CF5FF007D2A54 /* CPAProxyTorCommandConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B70235CEEB0002B213A /* CPAProxyTorCommandConstants.m */; };
-		D91D771C235CF5FF007D2A54 /* CPAProxyManager+TorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B6F235CEEB0002B213A /* CPAProxyManager+TorCommands.m */; };
-		D91D771D235CF5FF007D2A54 /* CPAProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B77235CEEB0002B213A /* CPAProxyManager.m */; };
 		D91D771F235CF5FF007D2A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52B9F235CF225002B213A /* Foundation.framework */; };
 		D91D7720235CF5FF007D2A54 /* libcpaproxy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52B98235CEF6A002B213A /* libcpaproxy.xcframework */; };
 		D954B31D235CFC6700B1E68F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D954B31C235CFC6700B1E68F /* libz.tbd */; };
@@ -39,33 +64,26 @@
 		D97947C9235D0005000D86AE /* torrc in Resources */ = {isa = PBXBuildFile; fileRef = D97947BE235CFFCA000D86AE /* torrc */; };
 		D9B7EF03235D493D00AD1EEA /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52BA1235CF22B002B213A /* Network.framework */; };
 		D9B7EF04235D494200AD1EEA /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52BA1235CF22B002B213A /* Network.framework */; };
-		D9B7EF06235D496600AD1EEA /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7EF05235D496600AD1EEA /* Socket.swift */; };
-		D9B7EF07235D496600AD1EEA /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7EF05235D496600AD1EEA /* Socket.swift */; };
-		D9C52B67235CEE08002B213A /* CPAProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B65235CEE08002B213A /* CPAProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B7F235CEEB0002B213A /* CPAProxyResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B6B235CEEAF002B213A /* CPAProxyResponseParser.m */; };
-		D9C52B80235CEEB0002B213A /* CPAThread.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6C235CEEAF002B213A /* CPAThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B81235CEEB0002B213A /* CPAProxyManager+TorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6D235CEEAF002B213A /* CPAProxyManager+TorCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B82235CEEB0002B213A /* CPAProxyTorCommandConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B6E235CEEAF002B213A /* CPAProxyTorCommandConstants.h */; };
-		D9C52B83235CEEB0002B213A /* CPAProxyManager+TorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B6F235CEEB0002B213A /* CPAProxyManager+TorCommands.m */; };
-		D9C52B84235CEEB0002B213A /* CPAProxyTorCommandConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B70235CEEB0002B213A /* CPAProxyTorCommandConstants.m */; };
-		D9C52B85235CEEB0002B213A /* CPAProxyTorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B71235CEEB0002B213A /* CPAProxyTorCommands.h */; };
-		D9C52B86235CEEB0002B213A /* CPASocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B72235CEEB0002B213A /* CPASocketManager.m */; };
-		D9C52B87235CEEB0002B213A /* CPASocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B73235CEEB0002B213A /* CPASocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B89235CEEB0002B213A /* CPAProxyCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B75235CEEB0002B213A /* CPAProxyCommand.m */; };
-		D9C52B8A235CEEB0002B213A /* CPAProxyCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B76235CEEB0002B213A /* CPAProxyCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B8B235CEEB0002B213A /* CPAProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B77235CEEB0002B213A /* CPAProxyManager.m */; };
-		D9C52B8C235CEEB0002B213A /* CPAConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B78235CEEB0002B213A /* CPAConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C52B8E235CEEB0002B213A /* CPAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7A235CEEB0002B213A /* CPAThread.m */; };
-		D9C52B8F235CEEB0002B213A /* CPAProxyTorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7B235CEEB0002B213A /* CPAProxyTorCommands.m */; };
-		D9C52B90235CEEB0002B213A /* CPAProxyResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B7C235CEEB0002B213A /* CPAProxyResponseParser.h */; };
-		D9C52B91235CEEB0002B213A /* CPAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C52B7D235CEEB0002B213A /* CPAConfiguration.m */; };
-		D9C52B92235CEEB0002B213A /* CPAProxyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B7E235CEEB0002B213A /* CPAProxyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9C52B99235CEF6A002B213A /* tor_cpaproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C52B94235CEF6A002B213A /* tor_cpaproxy.h */; };
 		D9C52B9D235CEF6A002B213A /* libcpaproxy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52B98235CEF6A002B213A /* libcpaproxy.xcframework */; };
 		D9C52BA0235CF225002B213A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C52B9F235CF225002B213A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorEvent.swift; sourceTree = "<group>"; };
+		7B608C8625C87FCC00BEA539 /* CPAProxy.bundle (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPAProxy.bundle (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B608C8725C87FCC00BEA539 /* CPAProxy.bundle (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPAProxy.bundle (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B608C8925C87FCD00BEA539 /* TorMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorMain.h; sourceTree = "<group>"; };
+		7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorProxyManager.swift; sourceTree = "<group>"; };
+		7B608C8B25C87FCD00BEA539 /* TorMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorMain.m; sourceTree = "<group>"; };
+		7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorConfiguration.swift; sourceTree = "<group>"; };
+		7B608C8D25C87FCD00BEA539 /* TorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorCommand.swift; sourceTree = "<group>"; };
+		7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorCommandConstants.swift; sourceTree = "<group>"; };
+		7B608C9025C87FCD00BEA539 /* CPAProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxy.h; sourceTree = "<group>"; };
+		7B608C9225C87FCD00BEA539 /* TorThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorThread.swift; sourceTree = "<group>"; };
+		7BF071BD25C95890003C1AED /* AsyncSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncSocket.swift; sourceTree = "<group>"; };
+		7BF071BE25C95890003C1AED /* TorControlConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorControlConnection.swift; sourceTree = "<group>"; };
+		7BF071BF25C95890003C1AED /* TextLineConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLineConnection.swift; sourceTree = "<group>"; };
 		D91D772A235CF5FF007D2A54 /* CPAProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPAProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D954B31C235CFC6700B1E68F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D97947B6235CFF4B000D86AE /* CPAProxy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPAProxy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,28 +92,8 @@
 		D97947BE235CFFCA000D86AE /* torrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = torrc; sourceTree = "<group>"; };
 		D97947BF235CFFCA000D86AE /* geoip6 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geoip6; sourceTree = "<group>"; };
 		D97947CD235D0005000D86AE /* CPAProxy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPAProxy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9B7EF05235D496600AD1EEA /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		D9C52B62235CEE08002B213A /* CPAProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPAProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9C52B65235CEE08002B213A /* CPAProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAProxy.h; sourceTree = "<group>"; };
 		D9C52B66235CEE08002B213A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9C52B6B235CEEAF002B213A /* CPAProxyResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAProxyResponseParser.m; sourceTree = "<group>"; };
-		D9C52B6C235CEEAF002B213A /* CPAThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAThread.h; sourceTree = "<group>"; };
-		D9C52B6D235CEEAF002B213A /* CPAProxyManager+TorCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPAProxyManager+TorCommands.h"; sourceTree = "<group>"; };
-		D9C52B6E235CEEAF002B213A /* CPAProxyTorCommandConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxyTorCommandConstants.h; sourceTree = "<group>"; };
-		D9C52B6F235CEEB0002B213A /* CPAProxyManager+TorCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CPAProxyManager+TorCommands.m"; sourceTree = "<group>"; };
-		D9C52B70235CEEB0002B213A /* CPAProxyTorCommandConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAProxyTorCommandConstants.m; sourceTree = "<group>"; };
-		D9C52B71235CEEB0002B213A /* CPAProxyTorCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxyTorCommands.h; sourceTree = "<group>"; };
-		D9C52B72235CEEB0002B213A /* CPASocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPASocketManager.m; sourceTree = "<group>"; };
-		D9C52B73235CEEB0002B213A /* CPASocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPASocketManager.h; sourceTree = "<group>"; };
-		D9C52B75235CEEB0002B213A /* CPAProxyCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAProxyCommand.m; sourceTree = "<group>"; };
-		D9C52B76235CEEB0002B213A /* CPAProxyCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxyCommand.h; sourceTree = "<group>"; };
-		D9C52B77235CEEB0002B213A /* CPAProxyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAProxyManager.m; sourceTree = "<group>"; };
-		D9C52B78235CEEB0002B213A /* CPAConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAConfiguration.h; sourceTree = "<group>"; };
-		D9C52B7A235CEEB0002B213A /* CPAThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAThread.m; sourceTree = "<group>"; };
-		D9C52B7B235CEEB0002B213A /* CPAProxyTorCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAProxyTorCommands.m; sourceTree = "<group>"; };
-		D9C52B7C235CEEB0002B213A /* CPAProxyResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxyResponseParser.h; sourceTree = "<group>"; };
-		D9C52B7D235CEEB0002B213A /* CPAConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAConfiguration.m; sourceTree = "<group>"; };
-		D9C52B7E235CEEB0002B213A /* CPAProxyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAProxyManager.h; sourceTree = "<group>"; };
 		D9C52B94235CEF6A002B213A /* tor_cpaproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tor_cpaproxy.h; sourceTree = "<group>"; };
 		D9C52B98235CEF6A002B213A /* libcpaproxy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libcpaproxy.xcframework; sourceTree = "<group>"; };
 		D9C52B9F235CF225002B213A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -183,27 +181,21 @@
 		D9C52B64235CEE08002B213A /* CPAProxy */ = {
 			isa = PBXGroup;
 			children = (
-				D9B7EF05235D496600AD1EEA /* Socket.swift */,
-				D9C52B78235CEEB0002B213A /* CPAConfiguration.h */,
-				D9C52B7D235CEEB0002B213A /* CPAConfiguration.m */,
-				D9C52B76235CEEB0002B213A /* CPAProxyCommand.h */,
-				D9C52B75235CEEB0002B213A /* CPAProxyCommand.m */,
-				D9C52B7E235CEEB0002B213A /* CPAProxyManager.h */,
-				D9C52B77235CEEB0002B213A /* CPAProxyManager.m */,
-				D9C52B6D235CEEAF002B213A /* CPAProxyManager+TorCommands.h */,
-				D9C52B6F235CEEB0002B213A /* CPAProxyManager+TorCommands.m */,
-				D9C52B7C235CEEB0002B213A /* CPAProxyResponseParser.h */,
-				D9C52B6B235CEEAF002B213A /* CPAProxyResponseParser.m */,
-				D9C52B6E235CEEAF002B213A /* CPAProxyTorCommandConstants.h */,
-				D9C52B70235CEEB0002B213A /* CPAProxyTorCommandConstants.m */,
-				D9C52B71235CEEB0002B213A /* CPAProxyTorCommands.h */,
-				D9C52B7B235CEEB0002B213A /* CPAProxyTorCommands.m */,
-				D9C52B73235CEEB0002B213A /* CPASocketManager.h */,
-				D9C52B72235CEEB0002B213A /* CPASocketManager.m */,
-				D9C52B6C235CEEAF002B213A /* CPAThread.h */,
-				D9C52B7A235CEEB0002B213A /* CPAThread.m */,
-				D9C52B65235CEE08002B213A /* CPAProxy.h */,
+				7B2F3BFF25CEAA400034E5CA /* TorEvent.swift */,
+				7BF071BD25C95890003C1AED /* AsyncSocket.swift */,
+				7BF071BF25C95890003C1AED /* TextLineConnection.swift */,
+				7BF071BE25C95890003C1AED /* TorControlConnection.swift */,
+				7B608C8D25C87FCD00BEA539 /* TorCommand.swift */,
+				7B608C8E25C87FCD00BEA539 /* TorCommandConstants.swift */,
+				7B608C8C25C87FCD00BEA539 /* TorConfiguration.swift */,
+				7B608C8925C87FCD00BEA539 /* TorMain.h */,
+				7B608C8B25C87FCD00BEA539 /* TorMain.m */,
+				7B608C9025C87FCD00BEA539 /* CPAProxy.h */,
+				7B608C8A25C87FCD00BEA539 /* TorProxyManager.swift */,
+				7B608C9225C87FCD00BEA539 /* TorThread.swift */,
 				D9C52B66235CEE08002B213A /* Info.plist */,
+				7B608C8625C87FCC00BEA539 /* CPAProxy.bundle (macOS)-Bridging-Header.h */,
+				7B608C8725C87FCC00BEA539 /* CPAProxy.bundle (iOS)-Bridging-Header.h */,
 			);
 			path = CPAProxy;
 			sourceTree = "<group>";
@@ -237,17 +229,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91D7707235CF5FF007D2A54 /* CPAProxyResponseParser.h in Headers */,
-				D91D7708235CF5FF007D2A54 /* CPAConfiguration.h in Headers */,
-				D91D7709235CF5FF007D2A54 /* CPAProxyManager+TorCommands.h in Headers */,
-				D91D770A235CF5FF007D2A54 /* CPAProxy.h in Headers */,
-				D91D770B235CF5FF007D2A54 /* CPASocketManager.h in Headers */,
-				D91D770C235CF5FF007D2A54 /* CPAProxyManager.h in Headers */,
-				D91D770D235CF5FF007D2A54 /* CPAProxyCommand.h in Headers */,
-				D91D770E235CF5FF007D2A54 /* CPAProxyTorCommands.h in Headers */,
-				D91D770F235CF5FF007D2A54 /* CPAProxyTorCommandConstants.h in Headers */,
+				7B608CB225C87FCD00BEA539 /* CPAProxy.h in Headers */,
+				7B608C9825C87FCD00BEA539 /* TorMain.h in Headers */,
 				D91D7711235CF5FF007D2A54 /* tor_cpaproxy.h in Headers */,
-				D91D7712235CF5FF007D2A54 /* CPAThread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +239,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C52B90235CEEB0002B213A /* CPAProxyResponseParser.h in Headers */,
-				D9C52B8C235CEEB0002B213A /* CPAConfiguration.h in Headers */,
-				D9C52B81235CEEB0002B213A /* CPAProxyManager+TorCommands.h in Headers */,
-				D9C52B67235CEE08002B213A /* CPAProxy.h in Headers */,
-				D9C52B87235CEEB0002B213A /* CPASocketManager.h in Headers */,
-				D9C52B92235CEEB0002B213A /* CPAProxyManager.h in Headers */,
-				D9C52B8A235CEEB0002B213A /* CPAProxyCommand.h in Headers */,
-				D9C52B85235CEEB0002B213A /* CPAProxyTorCommands.h in Headers */,
-				D9C52B82235CEEB0002B213A /* CPAProxyTorCommandConstants.h in Headers */,
+				7B608CB125C87FCD00BEA539 /* CPAProxy.h in Headers */,
+				7B608C9725C87FCD00BEA539 /* TorMain.h in Headers */,
 				D9C52B99235CEF6A002B213A /* tor_cpaproxy.h in Headers */,
-				D9C52B80235CEEB0002B213A /* CPAThread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +327,18 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					D91D7704235CF5FF007D2A54 = {
-						LastSwiftMigration = 1110;
+						LastSwiftMigration = 1240;
 					};
 					D97947B5235CFF4B000D86AE = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1240;
+					};
+					D97947C3235D0005000D86AE = {
+						LastSwiftMigration = 1240;
 					};
 					D9C52B61235CEE08002B213A = {
 						CreatedOnToolsVersion = 11.1;
-						LastSwiftMigration = 1110;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -425,16 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91D7714235CF5FF007D2A54 /* CPAProxyResponseParser.m in Sources */,
-				D91D7715235CF5FF007D2A54 /* CPAConfiguration.m in Sources */,
-				D91D7716235CF5FF007D2A54 /* CPAProxyTorCommands.m in Sources */,
-				D91D7717235CF5FF007D2A54 /* CPAProxyCommand.m in Sources */,
-				D91D7718235CF5FF007D2A54 /* CPAThread.m in Sources */,
-				D91D7719235CF5FF007D2A54 /* CPASocketManager.m in Sources */,
-				D9B7EF07235D496600AD1EEA /* Socket.swift in Sources */,
-				D91D771B235CF5FF007D2A54 /* CPAProxyTorCommandConstants.m in Sources */,
-				D91D771C235CF5FF007D2A54 /* CPAProxyManager+TorCommands.m in Sources */,
-				D91D771D235CF5FF007D2A54 /* CPAProxyManager.m in Sources */,
+				7B608C9E25C87FCD00BEA539 /* TorMain.m in Sources */,
+				7B608C9A25C87FCD00BEA539 /* TorProxyManager.swift in Sources */,
+				7B608CB825C87FCD00BEA539 /* TorThread.swift in Sources */,
+				7BF071C125C95890003C1AED /* AsyncSocket.swift in Sources */,
+				7B2F3C0125CEAA400034E5CA /* TorEvent.swift in Sources */,
+				7B608CA625C87FCD00BEA539 /* TorCommand.swift in Sources */,
+				7BF071C525C95890003C1AED /* TorControlConnection.swift in Sources */,
+				7B608CA225C87FCD00BEA539 /* TorConfiguration.swift in Sources */,
+				7BF071C925C95891003C1AED /* TextLineConnection.swift in Sources */,
+				7B608CAA25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +422,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B608C9F25C87FCD00BEA539 /* TorMain.m in Sources */,
+				7B608C9B25C87FCD00BEA539 /* TorProxyManager.swift in Sources */,
+				7B608CB925C87FCD00BEA539 /* TorThread.swift in Sources */,
+				7BF071C225C95890003C1AED /* AsyncSocket.swift in Sources */,
+				7B2F3C0225CEAA400034E5CA /* TorEvent.swift in Sources */,
+				7B608CA725C87FCD00BEA539 /* TorCommand.swift in Sources */,
+				7BF071C625C95890003C1AED /* TorControlConnection.swift in Sources */,
+				7B608CA325C87FCD00BEA539 /* TorConfiguration.swift in Sources */,
+				7BF071CA25C95891003C1AED /* TextLineConnection.swift in Sources */,
+				7B608CAB25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +439,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B608CA025C87FCD00BEA539 /* TorMain.m in Sources */,
+				7B608C9C25C87FCD00BEA539 /* TorProxyManager.swift in Sources */,
+				7B608CBA25C87FCD00BEA539 /* TorThread.swift in Sources */,
+				7BF071C325C95890003C1AED /* AsyncSocket.swift in Sources */,
+				7B2F3C0325CEAA400034E5CA /* TorEvent.swift in Sources */,
+				7B608CA825C87FCD00BEA539 /* TorCommand.swift in Sources */,
+				7BF071C725C95890003C1AED /* TorControlConnection.swift in Sources */,
+				7B608CA425C87FCD00BEA539 /* TorConfiguration.swift in Sources */,
+				7BF071CB25C95891003C1AED /* TextLineConnection.swift in Sources */,
+				7B608CAC25C87FCD00BEA539 /* TorCommandConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,16 +456,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9C52B7F235CEEB0002B213A /* CPAProxyResponseParser.m in Sources */,
-				D9C52B91235CEEB0002B213A /* CPAConfiguration.m in Sources */,
-				D9C52B8F235CEEB0002B213A /* CPAProxyTorCommands.m in Sources */,
-				D9C52B89235CEEB0002B213A /* CPAProxyCommand.m in Sources */,
-				D9C52B8E235CEEB0002B213A /* CPAThread.m in Sources */,
-				D9C52B86235CEEB0002B213A /* CPASocketManager.m in Sources */,
-				D9B7EF06235D496600AD1EEA /* Socket.swift in Sources */,
-				D9C52B84235CEEB0002B213A /* CPAProxyTorCommandConstants.m in Sources */,
-				D9C52B83235CEEB0002B213A /* CPAProxyManager+TorCommands.m in Sources */,
-				D9C52B8B235CEEB0002B213A /* CPAProxyManager.m in Sources */,
+				7B608C9D25C87FCD00BEA539 /* TorMain.m in Sources */,
+				7B608C9925C87FCD00BEA539 /* TorProxyManager.swift in Sources */,
+				7B608CB725C87FCD00BEA539 /* TorThread.swift in Sources */,
+				7BF071C025C95890003C1AED /* AsyncSocket.swift in Sources */,
+				7B2F3C0025CEAA400034E5CA /* TorEvent.swift in Sources */,
+				7B608CA525C87FCD00BEA539 /* TorCommand.swift in Sources */,
+				7BF071C425C95890003C1AED /* TorControlConnection.swift in Sources */,
+				7B608CA125C87FCD00BEA539 /* TorConfiguration.swift in Sources */,
+				7BF071C825C95891003C1AED /* TextLineConnection.swift in Sources */,
+				7B608CA925C87FCD00BEA539 /* TorCommandConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,7 +533,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -610,7 +610,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -660,6 +660,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = macOS_Debug;
@@ -731,7 +733,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -807,7 +809,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -883,7 +885,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -891,6 +898,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = macOS_Debug;
@@ -950,7 +960,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -959,6 +974,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -994,6 +1012,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -1066,7 +1086,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1142,7 +1162,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1218,7 +1238,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1226,6 +1251,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = macOS_Release;
@@ -1285,7 +1313,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1294,6 +1327,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1353,7 +1389,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1361,6 +1402,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = iOS_Debug;
@@ -1413,13 +1457,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.chatsecure.CPAProxy;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = iOS_Release;
@@ -1479,7 +1530,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1488,6 +1544,9 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1542,7 +1601,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CPAProxy/BundleInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -1550,6 +1614,8 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CPAProxy/CPAProxy.bundle (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1585,6 +1651,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = iOS_Debug;
@@ -1618,6 +1686,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = iOS_Release;
@@ -1689,7 +1759,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1765,7 +1835,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.chatsecure.CPAProxy;
